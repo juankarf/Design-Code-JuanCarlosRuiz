@@ -7,7 +7,7 @@ namespace Design_Code_JuanCarlosRuiz
 {
     public abstract class Product
     {
-        public int Identifier;  // Lo he puesto en público, porque el cliente cuando deje una reseña, utilizará el identificador
+        public int Identifier;  // Lo he puesto en público, porque el cliente cuando deje una reseña, utilizará el identificador. Podría también dejarse en privado, si fuera algo interno para la empresa.
         public string Name;
         public string Brand;
         public List<string> Images;// Lo he puesto como string, porque he supuesto que las imágenes tendrán sus propios enlaces.
