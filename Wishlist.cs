@@ -8,6 +8,7 @@ namespace Design_Code_JuanCarlosRuiz
     {
         public string User;
         public List<Product> Products;
+        public List<int> Quantities;
     }
 
 }

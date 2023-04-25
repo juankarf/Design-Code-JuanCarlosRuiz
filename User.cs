@@ -6,7 +6,7 @@ namespace Design_Code_JuanCarlosRuiz
 {
     public class User
     {
-        private string Name;
+        private string Name;// Los he puesto privados, porque entiendo que son los datos sensibles a los que el cliente de los correos hace referencia.
         private string Surname;
         private string Email;
         private string Password;

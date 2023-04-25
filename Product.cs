@@ -14,7 +14,7 @@ namespace Design_Code_JuanCarlosRuiz
         public float BasePrice;
         public bool HasDiscount;
         public float Discount;
-        private List<Label> Labels; //Lo he puesto en privado, porque entiendo que la etiqueta será utilizado como algo interno, que no necesita ver el cliente.
+        public List<Label> Labels; 
         public string Category;
         public string Subcategory;
         public string Subsubcategory;
